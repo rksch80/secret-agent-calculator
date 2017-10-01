@@ -1,0 +1,106 @@
+/* Styling for the calculator */
+
+/* Move calculator more towards center */
+body {
+  margin: 40px;
+}
+
+/* Affect's all the calculator elements */
+.wrapper {
+	/* Using CSS Grid for alignment */
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4, 50px);
+	grid-template-areas: 
+		"screen screen screen screen"
+		"seven eight nine divide"
+		"four five six multiply"
+		"one two three subtract"	
+		"zero decimal equals add";
+}
+
+/* The look of each of the buttons */
+.box {
+	background-color: #726C6C;
+	color: #fff;
+	padding: 10px;
+	font-size: 150%;
+}
+
+/* Mapping elements to CSS Grid */
+
+/* The look of the display for the equations */
+#display {
+	background-color: #fff;
+	color: #000;
+	border-radius: 1px;
+	border-style: solid;
+	border-color: #000;
+	padding: 10px;
+	font-size: 150%;
+	grid-area: screen;	
+}
+
+#zero {
+	grid-area: zero;	
+}
+
+#one {
+	grid-area: one;
+}
+
+#two {
+	grid-area: two;
+}
+
+#three {
+	grid-area: three;
+}
+
+#four {
+	grid-area: four;	
+}
+
+#five {
+	grid-area: five;	
+}
+
+#six {
+	grid-area: six;	
+}
+
+#seven {
+	grid-area: seven;
+}
+
+#eight {
+	grid-area: eight;
+}
+
+#nine {
+	grid-area: nine;
+}
+
+#decimal {
+	grid-area: decimal;
+}
+
+#add {
+	grid-area: add;
+}
+
+#subtract {
+	grid-area: subtract;	
+}
+
+#multiply {
+	grid-area: multiply;	
+}
+
+#divide {
+	grid-area: divide;	
+}
+
+#equals {
+	grid-area: equals;
+}
