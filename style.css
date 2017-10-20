@@ -1,12 +1,27 @@
 /* Styling for the calculator */
 
-/* Move calculator more towards center */
 body {
   margin: 40px;
 }
 
-/* Affect's all the calculator elements */
+.box {
+	background-color: #726C6C;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 150%;
+}
+
+.operator {
+	background-color: #CA2626;
+}
+
 .wrapper {
+	background-color: #fff;
+	color: #444;
+	float: left;
+	padding: 10px;
+	border: 5px solid black;
 	/* Using CSS Grid for alignment */
 	display: grid;
 	grid-gap: 10px;
@@ -19,17 +34,6 @@ body {
 		"zero decimal equals add";
 }
 
-/* The look of each of the buttons */
-.box {
-	background-color: #726C6C;
-	color: #fff;
-	padding: 10px;
-	font-size: 150%;
-}
-
-/* Mapping elements to CSS Grid */
-
-/* The look of the display for the equations */
 #display {
 	background-color: #fff;
 	color: #000;
@@ -40,6 +44,17 @@ body {
 	font-size: 150%;
 	grid-area: screen;	
 }
+
+/* Make invisible */
+/* video {
+	display: none;
+}
+
+canvas {
+	display: none;
+} */
+
+/* Button mapping to grid */
 
 #zero {
 	grid-area: zero;	
@@ -103,4 +118,5 @@ body {
 
 #equals {
 	grid-area: equals;
+	background-color: #E0CE00;	
 }

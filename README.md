@@ -2,6 +2,8 @@
 
 A calculator for the **2017 UF Codeathon** to secretly recording suspects while doing arithmetic.
 
+Example of a working prototype is found on the example branch. 
+
 ## Getting Started
 
 Look at this [document](https://tinyurl.com/osccodeathon) for more information and a list of requirements for the competition. As always, follow the [rubric](http://tinyurl.com/codeathonrubric) to earn as many points as you can. 
