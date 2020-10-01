@@ -13,6 +13,7 @@ body {
 	grid-template-columns: repeat(4, 50px);
 	grid-template-areas: 
 		"screen screen screen screen"
+		"opening-parenthesis closing-parenthesis percent all-clear"
 		"seven eight nine divide"
 		"four five six multiply"
 		"one two three subtract"	
@@ -104,3 +105,16 @@ body {
 #equals {
 	grid-area: equals;
 }
+
+#percent {
+	grid-area:percent;
+}
+#opening-parenthesis {
+	grid-area:opening-parenthesis;
+}
+#closing-parenthesis {
+	grid-area:closing-parenthesis;
+}
+#all-clear {
+	grid-area:all-clear;
+}	
